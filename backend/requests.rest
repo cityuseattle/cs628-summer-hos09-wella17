@@ -1,0 +1,26 @@
+GET http://localhost:5056/record
+
+###
+
+POST http://localhost:5056/record
+Content-Type: application/json
+
+{
+    "name":"Vaishnavi",
+    "position": "Software Engineer",
+    "level": "Intermediate"
+}
+###
+
+PATCH  http://localhost:5056/record/64ec334fcd24e74a2e84d83f
+Content-Type: application/json
+
+{
+    "name": "Matthew",
+    "position": "Software Engineer 2",
+    "level": "Intermediate"
+}
+###
+DELETE http://localhost:5055/record/64e5bcc03ed7bd04c7651460
+
+###
